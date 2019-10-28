@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Vallet"
+        android:background="@color/colorPrimary"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:entries="@array/car_brand"
+            android:prompt="@string/brand_prompt"
+
+            />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:text="ADD"
+            android:background="#f2c418"/>
+    </LinearLayout>
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:entries="@array/car_model"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="palets" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:hint="color" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
